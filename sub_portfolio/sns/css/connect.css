@@ -1,0 +1,195 @@
+@import url("style.css");
+
+.wrap{width:100%; height:auto; background:url(../img/bg.png) repeat center #000; background-size:65%; overflow:hidden;}
+/* 로고 */
+.logo img{width:60px; margin:20px;}
+
+/* 메뉴 */
+.menu_wrap{width:180px;}
+.menu_box{left:0; top:200px;}
+.menu{width:90px; padding:60px 0;background:#5f64ca; border-radius:0 100px 100px 0;}
+.menu>li>a>img{margin:15px 0;}
+
+/* 우측 프로필 */
+.profile_wrap{width:380px;}
+.profile_box{right:50px; top:30px; width:260px; height:auto;}
+.profile_img{width:180px; height:180px; border:2px solid #ddd; background:#fff; border-radius:100%; margin-top:100px; overflow:hidden; box-sizing:border-box; z-index:1;}
+.profile_img>img{width:110%; height:110%;}
+.pro_box{width:100%; height:auto; padding:20px; background:#fff; border-radius:15px; border:2px solid #ddd; top:-30px;}
+.tit{text-align:center; margin-top:20px;}
+.tit h2{height:35px; border-bottom:1px solid #ddd;}
+.tit h4{color:#5f64ca; font-size:15px; line-height:30px; margin-bottom:20px;}
+.info>li{margin-bottom:15px;}
+.link{margin-top:25px;}
+.link>li{line-height:25px; cursor:pointer;}
+.link>li>img{width:20px; margin:0 20px 0 5px;}
+.sns{margin-top:30px;}
+.tistory{width:100%; height:50px; border:1px solid #ddd;}
+.tistory a{width:100%; height:50px;}
+.tistory img{width:130px;}
+
+/* 채팅전체 */
+.chatt_wrap{width:280px;height:380px; border:3px solid #5f64ca; border-radius:20px 20px 0 0; border-bottom:0; bottom:-320px; right:40px;  overflow:hidden; background:#fff; font-size:18px; font-weight:bold; transition:all 0.4s;}
+.chatt_wrap:hover{bottom:0;}
+/* 채팅 타이틀 */
+.chatt_tit{height:60px; border-bottom:1px solid #ddd;}
+.chatt_tit>li:first-child>img{width:40px;}
+.chatt_tit>li:last-child{display:none;}
+.chatt_tit>li>button{border:none; background:#fff; font-weight:bold; font-size:18px; color:#5f64ca;}
+.chatting_wrap{width:100%; height:100%; padding:0 20px; box-sizing:border-box; overflow:scroll; overflow-x:hidden;}
+.chatting_wrap::-webkit-scrollbar {width:4px;}
+.chatting_wrap::-webkit-scrollbar-thumb {background:#ddd; border-radius:10px;}
+.chatting_wrap::-webkit-scrollbar-track {background:#eee; border-radius: 10px;}
+/* 채팅 친구 창 */
+.chat_pro>img{width:30px; height:30px; border:1px solid #eee; border-radius:100%; overflow:hidden;}
+.chat_pro>p{line-height:30px; margin-left:10px; color:#282828; font-size:16px;}
+.chatting{height:60px; cursor:pointer; }
+.send{width:20px;}
+/* 채팅 디엠 창 */
+.dm_wrap{width:100%; height:100%; font-size:14px; color:#282828;}
+.dm_box{width:100%; height:70%; background:#f3f4ff; padding:10px; box-sizing:border-box; overflow:scroll; overflow-x:hidden;}
+.dm_box::-webkit-scrollbar {width:4px;}
+.dm_box::-webkit-scrollbar-thumb {background:#ddd; border-radius:10px;}
+.dm_box::-webkit-scrollbar-track {background:#eee; border-radius: 10px;}
+.dm_box>ul{padding:5px 0;}
+/* 채팅 친구 프로필 + 말풍 */
+.you>li>img{width:30px; height:30px; border-radius:100%; margin-right:10px;}
+.you>li>p{height:auto; background:#fff; padding:0 10px; line-height:30px; border-radius:10px;}
+/* 내 말풍 */
+.me>li>p{height:auto; background:#fff; padding:0 10px; line-height:30px; border-radius:10px;}
+/* 채팅 보내는 창 */
+.dm{width:100%; height:15%;}
+.dm>li>form>input{width:250px; height:40px; padding:0 10px; font-size:14px; border:none; box-sizing:border-box;}
+.dm>li>button{border:none; background:#fff;}
+.dm>li>button>img{width:20px;}
+
+/* 메인 전체창 */
+.main_wrap{width:70%; height:auto; margin-left:0;}
+/* 검색창 */
+.search_wrap{width:100%; height:150px;}
+.search{width:100%; height:40px; border:1px solid #aaa; border-radius:40px; background:#fff;}
+.search>li>input{width:100%; height:40px; border-radius:0 40px 40px 0; border:none; font-size:16px; box-sizing:border-box; padding:0 20px;} 
+.search>li>img{height:20px; padding-left:10px;}
+
+/* 친구목록 */
+.friendlist_wrap{width:100%; height:auto; background:#fff; border-radius:10px;}
+/* 친구목록 타이틀 */
+.friendlist_tit{width:100%; height:60px; border-bottom:1px solid #eee;}
+.friendlist_tit>li{width:200px;}
+.friendlist_tit>li>h2{color:#7c7c7c;}
+.friendlist_tit>li>p{color:#7c7c7c; font-weight:bold;}
+.friendlist_tit>li>p>span{color:#5f64ca; font-weight:bold;}
+/* 친구목록 리스트 */
+.friendlist{height:80px; border-bottom:1px solid #eee;padding:0 20px; box-sizing:border-box;}
+.friend_name>li>img{width:50px; height:50px; border-radius:100%; margin-right:20px;}
+.friend_name>li>p{font-size:20px; font-weight:bold;}
+.friend_btn>li{width:140px;}
+.friend_btn>li>button{width:130px; height:40px; border-radius:20px; border:none; background:none; font-weight:bold;}
+/* 친구목록 버튼 */
+.friend_btn>.delete>button{border:1px solid #282828;}
+.friend_btn>.add>button{background:#5f64ca; color:#fff; border:1px solid #5f64ca; transition:all 0.2s;}
+.friend_btn>.add>button:hover{background:#fff; color:#282828;}
+.showmore{width:100%; height:50px; background:#eee; font-weight:bold; font-size:18px; cursor:pointer;}
+
+/* 친구추천 */
+.recommend_wrap{width:100%; height:auto; margin:50px 0; border:1px solid #eee;  border-radius:10px; padding:20px; box-sizing:border-box; background:#fff;}
+/* 친구추천 타이틀 */
+.recommend_tit{width:100%; height:60px; border-bottom:1px solid #eee;}
+.recommend_tit>li>h3{color:#7c7c7c;}
+.recommend_tit>.re_search>img{width:20px; left:10px}
+.recommend_tit>.re_search>form>input{width:280px; height:40px; border:1px solid #aaa; border-radius:30px; padding:0 20px 0 40px; box-sizing:border-box;}
+/* 친구추천 박스 */
+.recommend_box{width:100%; height:auto; padding:20px 40px; box-sizing:border-box;}
+.people{width:350px; height:300px; padding:0 10px;}
+.people>li>img{width:100px; height:100px; border-radius:100%; border:2px solid #eee;}
+.info_box{width:100%; height:200px; border:2px solid #eee; margin-top:-60px; background:#fff; border-radius:10px; padding:50px 20px 150px 20px; box-sizing:border-box;}
+.info_text>li{width:100%;}
+.info_text>li>h3{color:#5f64ca; font-size:20px;}
+.info_tit{width:100%; line-height:25px; border-bottom:1px solid #ddd; text-align:center; font-size:15px;}
+.info_intro{width:78%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding:10px 0; box-sizing:border-box;}
+.info_btn{width:50%; height:40px; margin-top:10px; border:2px solid #5f64ca; background:#fff;  transition:all 0.1s; border-radius:40px; color:#5f64ca; font-weight:bold;}
+.info_btn:hover{background:#5f64ca; color:#fff;} 
+
+
+
+/* 모바일 */
+@media all and (min-width:0px) and (max-width:766px){
+/* 메뉴 */
+.logo{position:absolute;}
+.logo img{width:35px; margin:30px 0 0 10px;}
+.menu_wrap{width:0; z-index:100;}
+.menu{width:100%; height:70px; bottom:0; display:flex; justify-content:space-around; left:0; position:fixed; border-radius:0; padding:0 30px; box-sizing:border-box;}
+.menu>li>a>img{height:28px;}
+/* 메인 */
+.main_wrap{width:100%;}
+.search_wrap{height:100px; width:85%; margin-left:70px;}
+/* 친구목록 타이틀 */
+.friendlist_tit{padding:0 20px; box-sizing:border-box;}
+.friend_name > li > img{margin-right:10px; width:40px;height:40px;}
+.friend_name>li>p{font-size:16px;}
+.friend_btn>li{width:115px;}
+.friend_btn>li>button{width:110px;}
+
+/* 프로필 */
+.profile_wrap{display:none;}
+
+}
+
+/* 탭 */
+@media all and (min-width:767px) and (max-width:1023px){
+/* 메뉴 */
+.logo img{width:50px; margin-left:10px;}
+.menu_wrap{width:110px;}
+.menu{width:65px;}
+/* 메인 */
+.main_wrap{width:100%; margin-right:30px;}
+.search_wrap{height:100px;}
+/* 친구추천 이름 */
+.friend_name>li>p{font-size:18px;}
+
+/* 프로필 */
+.profile_wrap{display:none;}
+
+}
+
+/* 탭 */
+@media all and (min-width:1024px) and (max-width:1299px){
+/* 메뉴 */
+.logo img{width:50px; margin-left:10px;}
+.menu_wrap{width:110px;}
+.menu{width:65px;}
+/* 메인 */
+.main_wrap{width:100%; margin-right:30px;}
+.search_wrap{height:100px;}
+
+/* 프로필 */
+.profile_wrap{display:none;}
+}
+
+/* 모니터 */
+@media all and (min-width:1300px) and (max-width:1569px){
+/* 메뉴 */
+.menu_wrap{width:140px;}
+
+/* 피드박스 */
+.tag{width:100%; border-top:1px solid #eee;}
+.like_box>li>img{width:25px;}
+.like_box>.icon_scrap>img{width:20px;}
+.like_box>li>span{font-size:14px;}
+
+ /* 프로필 */
+ .profile_wrap{width:300px;}
+ .profile_box{top:30px; right:50px; width:175px; height:auto;}
+ .profile_img{width:120px; height:120px;}
+ .tit h2{font-size:22px;}
+ .tit h4{font-size:14px; margin-bottom:10px;}
+ .info>li{font-size:15px; margin-bottom: 10px;}
+ .link{margin-top:15px;}
+ .link>li{font-size:15px;}
+ .link>li>img{margin:0 10px 0 0px;}
+ .sns{margin-top:25px;}
+ .sns img{width:28px;}
+ .tistory{padding:0 40px;}
+ /* 채팅 */
+ .chatt_wrap{right:20px; width:250px; bottom:-330px;}
+}

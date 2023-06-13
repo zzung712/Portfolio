@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./css/connect.css">
+ <script src="js/connect.js" defer></script>
+</head>
+<body>
+ <div class="logo pf">
+  <a href="index.html">
+   <img src="./img/logo.png">
+  </a>
+ </div>
+
+ <div class="wrap fb">
+   <div class="menu_wrap">
+   <div class="menu_box pf">
+    <ul class="menu">
+     <li class="fc ic"><a href="main.html"><img src="./img/home_white.png"></a></li>
+     <li class="fc ic"><a href="myfeed.html"><img src="./img/my_white.png"></a></li>
+     <li class="fc ic"><a href="connect.html"><img src="./img/connect_green.png"></a></li>
+     <li class="fc ic"><a href="dm.html"><img src="./img/dm_white.png"></a></li>
+     <li class="fc ic"><a href="setting.html"><img src="./img/setting_white.png"></a></li>
+     <li class="fc ic"><a href="index.html"><img src="./img/out_white.png"></a></li>
+    </ul>
+   </div>
+  </div>
+
+  <div class="main_wrap">
+   <div class="main">
+    <div class="search_wrap fb ic">
+     <ul class="search">
+       <li class="df ic">
+         <img src="img/glasses.png">
+         <input type="text" placeholder="Search">
+       </li>
+     </ul>
+   </div>
+   <!-- search_wrap end -->
+   <div class="friendlist_wrap">
+    <ul class="friendlist_tit fb ic">
+     <li><h2>Invitations</h2></li>
+     <li class="fb ic"><p>Follow <span class="plus">6</span></p>
+     <p>Following <span class="minus">12</span></p></li>
+    </ul>
+    <div class="friendlist_box">
+     <!-- freindlist반복 JS -->
+    </div>
+    <!-- friendlist_box end -->
+    <div class="showmore fc ic">
+     <p>SHOW MORE<span>+</span></p>
+    </div>
+   </div>
+   <!-- friend_wrap end -->
+
+   <div class="recommend_wrap">
+    <ul class="recommend_tit fb ic">
+     <li><h3>People you may know</h3></li>
+     <li class="re_search pr df ic">
+      <img class="pa" src="img/glasses.png">
+      <form action="">
+       <input type="text" placeholder="Search">
+      </form>
+     </li>
+    </ul>
+    <div class="recommend_box fa fw">
+      
+    </div>
+    <!-- recommend_box -->
+   </div>
+   <!-- recommend_wrap -->
+   </div>
+   <!-- main end -->
+  </div>
+  <!-- main_wrap end -->
+
+  <div class="profile_wrap">
+   <div class="profile_box pf fc fw">
+    <div class="profile_img pr fc ic">
+     <img src="./img/sns_profile.jpg">
+    </div>
+    <div class="pro_box pr">
+     <ul class="tit">
+      <li><h2>NickName</h2></li>
+      <li><h4>WebPublish Developer</h4></li>
+     </ul>
+     <ul class="info">
+      <li>웹퍼블리셔 Name입니다.</li>
+      <li>#HTML #CSS #jQuery #JS #PS #AI</li>
+      <ul class="link">
+      <li class="df ic"><img src="img/mail.png">yujeong@naver.com</li>
+      <li class="df ic"><img src="img/internet.png">https://portfolio.com</li>
+     </ul>
+     </ul>
+     <ul class="sns fa">
+      <li><a href=""><img src="img/instar.png"></a></li>
+      <li><a href=""><img src="img/face.png"></a></li>
+      <li><a href=""><img src="img/twitter.png"></a></li>
+      <li><a href=""><img src="img/git.png"></a></li>
+     </ul>
+    </div>
+    <ul class="tistory">
+      <li><a class="fc ic" href=""><img src="img/tistory.PNG"></a></li>
+    </ul>
+   </div>
+   <!-- profile_box end -->
+
+   <div class="chatt_wrap pf">
+    <ul class="chatt_tit fa ic">
+      <li><img src="img/chatt.png"></li>
+      <li>Message</li>
+      <li id="dm_remove"><img src="img/chatt_add.png"></li>
+      <li id="dm_X"><button>X</button></li>
+    </ul>
+    <div class="chatting_wrap" id="chatting">
+      <script src="js/chatting.js" defer></script>
+       <!-- chatting.js -->
+    </div>
+    <div class="dm_wrap">
+      <div class="dm_box">
+        <ul class="you df ic">
+          <li><img src="img/chat_pro1.jpg"></li>
+          <li><p>상대방 메세지 창상대방 메세지 창상대방 메세지 창상대방 메세지 창상대방 메세지 창</p></li>
+        </ul>
+        <ul class="me fe ic">
+          <li><p>나의 메세지 창</p></li>
+        </ul>
+        <ul class="you df ic">
+          <li><img src="img/chat_pro1.jpg"></li>
+          <li><p>상대방 메세지 창</p></li>
+        </ul>
+        <ul class="me fe ic">
+          <li><p>나의 메세지 창</p></li>
+        </ul>
+        <ul class="you df ic">
+          <li><img src="img/chat_pro1.jpg"></li>
+          <li><p>상대방 메세지 창</p></li>
+        </ul>
+        <ul class="me fe ic">
+          <li><p>나의 메세지 창</p></li>
+        </ul>
+        <ul class="you df ic">
+          <li><img src="img/chat_pro1.jpg"></li>
+          <li><p>상대방 메세지 창</p></li>
+        </ul>
+        <ul class="me fe ic">
+          <li><p>나의 메세지 창</p></li>
+        </ul>
+      </div>
+      <ul class="dm df ic">
+        <li><form action="">
+          <input type="text">
+        </form></li>
+        <li><button><img src="img/send.png"></button></li>
+      </ul>
+    </div>
+   </div>
+  <!-- chatt_wrap end -->
+  </div>
+  <!-- profile_wrap end --> 
+ </div>
+</body>
+</html>

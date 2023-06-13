@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+ <meta charset="utf-8">
+  <title>국립광주박물관</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ </head>
+ <body>
+  <div class="wrap">
+   <header id="header">
+    <div class="h_top">
+     <ul class="home">
+      <li><a href="#">홈으로</a>|</li>
+      <li><a href="#">어린이박물관</a>|</li>
+      <li><a href="#">정보공개</a>|</li>
+      <li><a href="#">LANGUAGE ▼</a>
+       <ul class="lang">
+        <li><a href="#">English</a></li>
+        <li><a href="#">Chinese</a></li>
+        <li><a href="#">Japanese</a></li>
+       </ul>
+       <!--lang end-->
+      </li>
+      <!--language end-->
+     </ul>
+     <!--home end-->
+     
+     <!-- lang script start-->
+     <script>
+     $(".home>li:last-child").mouseenter(function(){
+      $(".lang").stop().slideDown();
+     });
+       $(".home>li:last-child").mouseleave(function(){
+      $(".lang").stop().slideUp();
+     });
+     </script>
+     
+    </div>
+    <!--h_top end-->
+    
+    <div class="h_bottom">
+     <div class="logo">
+      <a href="index.html">
+      <img src="img/logo.png" alt="x">
+      </a>
+     </div>
+     <!--header logo end-->
+     
+     <ul class="menu">
+      <li><a href="#">관람정보</a>
+      <ul class="sub">
+      <li><a href="#">관람안내</a></li>
+      <li><a href="#">전시해설</a></li>
+       <li><a href="#">시설안내</a></li>
+      <li><a href="#">찾아오시는길</a></li>
+         <div class="bar"></div>
+     </ul>
+      </li>|
+      <li><a href="#">전시</a>
+      <ul class="sub">
+      <li><a href="#">상설전시</a></li>
+      <li><a href="#">특별전시</a></li>
+      <li><a href="#">전시도록</a></li>
+      <li><a href="#">가상현실체험관예약</a></li>
+         <div class="bar"></div>
+     </ul>
+      </li>|
+      <li><a href="#">교육·행사</a>
+      <ul class="sub">
+      <li><a href="#">공지사항</a></li>
+      <li><a href="#">교육프로그램</a></li>
+      <li><a href="#">문화행사</a></li>
+      <li><a href="#">공연</a></li>
+      <li><a href="#">온라인학습영상자료실</a></li>
+      <li><a href="#">교육자료</a></li>
+      <li><a href="#">읽어주는문화재</a></li>
+      <li><a href="#">교육/행사사진</a></li>
+      <li><a href="#">예약확인/취소</a></li>
+         <div class="bar"></div>
+     </ul>
+      </li>|
+      <li><a href="#">소장품</a>
+     <ul class="sub">
+      <li><a href="#">소장품검색</a></li>
+      <li><a href="#">소장품정보서비스</a></li>
+      <li><a href="#">지정문화재</a></li>
+      <li><a href="#">큐레이터추천소장품</a></li>
+      <li><a href="#">문화재기증</a></li>
+        <div class="bar"></div>
+     </ul> 
+     </li>|
+      <li><a href="#">학술</a>
+      <ul class="sub">
+      <li><a href="#">아시아 도자문화연구</a></li>
+      <li><a href="#">학술연구</a></li>
+      <li><a href="#">발굴조사</a></li>
+      <li><a href="#">보존과학</a></li>
+      <li><a href="#">보고서</a></li>
+      <li><a href="#">도서열람실</a></li>
+         <div class="bar"></div>
+     </ul>
+      </li>|
+      <li><a href="#">소식·참여</a>
+      <ul class="sub">
+      <li><a href="#">새소식</a></li>
+      <li><a href="#">온라인박물관</a></li>
+      <li><a href="#">이벤트게시판</a></li>
+      <li><a href="#">언론에비친박물관</a></li>
+      <li><a href="#">월간소식지</a></li>
+      <li><a href="#">국립광주박물관후원회</a></li>
+      <li><a href="#">뮤지엄프렌즈</a></li>
+      <li><a href="#">자주하는 질문</a></li>
+      <li><a href="#">관람후기</a></li>
+      <li><a href="#">전자민원(불편신고)</a></li>
+       <li><a href="#">설문조사</a></li>
+     </ul>
+    
+      </li>
+     </ul>
+     <div class="sub_bg">
+     <img class="text" src="img/sub_bg_text.jpg" alt="x">
+     <img class="img" src="img/sub_bg_img.jpg" alt="x">
+     </div>
+     <!--menu end-->
+     
+     <!--submenu slide start-->
+<script>
+     $(".menu, .sub_bg").mouseenter(function(){
+      $(".sub,.sub_bg").stop().slideDown();
+     });
+      $(".menu, .sub_bg").mouseleave(function(){
+      $(".sub,.sub_bg").stop().slideUp();
+     });
+     </script>
+
+     
+     <ul class="icon">
+      <li><a href="#">박물관소개</a></li>
+      <li><a href="#"><img src="img/home.png" alt="x"></a></li>
+      <li><a href="#"><img class="link" src="img/sub_button.png" alt="x"></a></li>
+      <li><a href="#"><img class="f_button" src="img/sub_button.png" alt="x"></a></li>
+      <li></li>
+     </ul>
+    </div>
+    <!--h_bottom end-->
+   </header>
+   <!--header end-->
+   
+   <section id="banner">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+         <a href="#"><img src="img/getImage%20(1).do" alt="x"></a>
+       </div>
+        <div class="swiper-slide"><a href="#"><img src="img/getImage%20(1).png" alt="x"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="img/getImage.png" alt="x"></a></div>
+      </div>
+      <div class="swiper-pagination"></div>
+     <div class="play1">▶</div>
+     <div class="play2">∥</div>
+    </div>
+    <!--mySwiper end-->
+   </section>
+   <!--banner end-->
+   
+   <!--swiper slide start-->
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween:0,// 슬라이드 간격
+        centeredSlides: true,
+        autoplay: { // 자동재생
+          delay: 2500, // 머무는 시간
+          disableOnInteraction: false// 자동재생 여부 
+        },
+       loop:true,
+        pagination: { // 슬라이드 아래 원형 여부 설정
+          el: ".swiper-pagination",
+          clickable: true //클릭했을 때
+        },
+        navigation: { // 화살표 여부
+          nextEl: ".swiper_btn_next",
+          prevEl: ".swiper_btn_prev"
+        }
+      });
+    
+    $(document).ready(function(){
+      $(".play2").click(function(){
+       swiper.autoplay.stop();
+       $(".play2").addClass("stop")
+      })
+       $(".play1").click(function(){
+       swiper.autoplay.start();
+       $(".play2").removeClass("stop")
+      });
+     $(".swiper-pagination-bullet:nth-child(3)").css({"margin-right":"300px"})
+     $(".swiper-pagination-bullet").css({"margin-left":"20px"})
+    })
+    
+    </script>
+   
+   <nav id="contents">
+     <div class="box1">
+      <div class="b1">
+       <a href="#">
+        <img class="ro" src="img/search.png" alt="x">
+        <p>통합검색/예약</p>
+        <img src="img/service.png" alt="x">
+       </a>
+      </div>
+      <!--b1 end-->
+      
+      <div class="b2">
+      <a href="#">
+       <img class="ro" src="img/map.png" alt="x">
+       <p>온라인 박물관</p>
+       <img src="img/tour.png" alt="x">
+       </a>
+      </div>
+      <!--b2 end-->
+      
+      <div class="b3">
+      <a href="#">
+       <img class="ro" src="img/museum.png" alt="x">
+       <img src="img/kids.png" alt="x">
+       </a>
+      </div>
+      <!--b3 end-->
+     </div>
+     <!--box1 end-->
+     
+    <div class="container">
+     <div class="box2">
+      <div class="box b4">
+       <a href="#"><img src="img/PHO_202112060929277910.jpg" alt="x"></a>
+       <div class="b4_bar">팝업존</div>
+      </div>
+      <!--b4 end-->
+      
+      <div class="box b5">
+       <p class="date">10:00~18:00<br>
+        <span>1월 1일, 설날, 추석, 4월·11월 첫번째 월요일 휴관</span>
+       </p>
+       
+       <div class="time">
+        <h3>야간<br>개장</h3>
+        <p>10:00~17:00<br>
+        <span>1월 1일, 설날, 추석, 매월 셋째주 월요일 휴관</span></p>
+       </div>
+       <div class="time">
+       <h3>어린이<br>박물관</h3>
+        <p>08:00~20:00<br>
+        <span> </span></p>
+       </div>
+       <div class="time">
+       <h3>정원<br>개방</h3>
+        <p>10:00~20:00<br>
+        <span>3월~10월 중 매주 토요일</span></p>
+       </div>
+       <!--time end-->
+       
+       <img class="clock" src="img/clock.png" alt="x">       
+      </div>
+      <!--b5 end-->
+      
+      <div class="box b6">
+       <div class="edu">
+        <h3>교육안내</h3>
+        <p>국립광주박물관에서 열리는<br>
+다양한 교육을 경험해 보세요.</p>
+        <a href="#"><img src="img/mcont1_box_arr.png" alt="x"></a>
+       </div>
+       <div class="fes">
+        <h3>문화행사</h3>
+        <p>국립광주박물관에서 열리는<br>
+문화행사를 여러분께 소개합니다</p>
+        <a href="#"><img src="img/mcont1_box_arr.png" alt="x"></a>
+       </div>
+      </div>
+
+      <div class="box b7">
+      <img src="img/mcont1_box1_bg.jpg" alt="x">
+       <div class="brand">
+       <img src="img/national.png" alt="x">
+        <p>국립광주박물관브랜드</p>
+        <span></span>
+        <div class="brand1">
+        <a href="#">뉴스레터</a>
+        <a href="#">학술지</a>
+        <a href="#">조사연구</a>
+        <a href="#">아카이브</a>
+         </div>
+       </div>
+       <!--brnad end-->
+      </div>
+      <!--b7 end-->
+      
+      <div class="box b8">
+       <div class="b8_wrap">
+        <ul class="tap">
+         <li><a href="#">새소식</a></li>·
+         <li><a href="#">언론에비친 박물관</a></li>
+        </ul>
+        <a href="#">+</a>
+        <div class="line"><span>▲</span></div>
+        <ul class="notice none1">
+         <li><a href="#">[교육/대면] '빛 그림 읽어주는 박물관' 참여 가족 모집 새글</a><span>2022.01.05</span></li>
+         <li><a href="#">[누구나/비대면] 온라인 교육 '도자기 컬러테라피 ' 참여자 모집!</a><span>2022.01.04</span></li>
+         <li><a href="#">[전시/문화행사]제33회 어린이 문화재 그림전 개최</a><span>2021.12.30</span></li>
+         <li><a href="#">방역패스 운영안내</a><span>2021.12.07</span></li>
+         <li><a href="#">가상현실체험관 임시 휴관 연장 안내</a><span>2021.12.06</span></li>
+        </ul>
+        <!--notice end-->
+       </div>
+       <!--b8_wrap end-->
+       
+       <div class="b8_wrap2">
+        <div class="line"><span>▲</span></div>
+        <ul class="notice none2">
+         <li><a href="#">뉴스클리핑(2021.12.31.금)</a><span>2021.12.31</span></li>
+         <li><a href="#">뉴스클리핑(2021.12.1.수)</a><span>2021.12.01</span></li>
+         <li><a href="#">뉴스클리핑(2021.11.1.월)</a><span>2021.11.01</span></li>
+         <li><a href="#">뉴스클리핑(2021.10.1.금)</a><span>2021.10.01</span></li>
+         <li><a href="#">뉴스클리핑(2021.9.1.수)</a><span>2021.09.01</span></li>
+        </ul>
+        <!--notice2 end-->	
+       </div>
+       <!--b8_wrap2 end-->
+      </div>
+      <!--b8 end-->
+      
+      <div class="box b9">
+       <div class="left">
+        <h3>월간 소식지</h3>
+        <p>국립광주박물관의<br>
+소식을 전해드립니다.</p>
+        <a href="#">
+         <span>신청하기</span>
+         <img src="img/mcont1_box_arr.png" alt="x">
+        </a>
+        <a href="#">
+         <span>소식지 보기</span>
+         <img src="img/mcont1_box_arr.png" alt="x">
+        </a>
+       </div>
+       <!--left end-->
+       <div class="right">
+        <a href="#"><img src="img/webzne_img01.jpg" alt="x"></a>
+       </div>
+       <!--right end-->
+      </div>
+      <!--b9 end-->
+     </div>
+     <!--box2 end-->
+    </div>
+    <!--contents container end-->
+   </nav>
+   <!--contents end-->
+   
+   <footer id="footer">
+    <div class="container">
+     <div class="f_top">
+      <div class="fm">
+       <a href="#">박물관소개</a>
+       <a href="#">오시는길 &nbsp;|</a>
+       <a href="#">개인정보처리방침 &nbsp;|</a>
+       <a href="#">이메일무단수집거부 &nbsp;|</a>
+       <a href="#">저작권정책</a>
+      </div>
+      <!--fm end-->
+      <div class="fs">
+       <ul class="site">
+        <li><span>관련사이트</span><span>▲</span>
+        <ul class="sub_site1 top1">
+         <li><a href="#">국립중앙박물관</a></li>
+         <li><a href="#">국립경주박물관</a></li>
+         <li><a href="#">국립공주박물관</a></li>
+         <li><a href="#">국립김해박물관</a></li>
+         <li><a href="#">국립나주박물관</a></li>
+         <li><a href="#">국립대구박물관</a></li>
+         <li><a href="#">국립부여박물관</a></li>
+         <li><a href="#">국립익산박물관</a></li>
+         <li><a href="#">국립전주박물관</a></li>
+         <li><a href="#">국립제주박물관</a></li>
+         <li><a href="#">국립진주박물관</a></li>
+         <li><a href="#">국립청주박물관</a></li>
+         <li><a href="#">국립춘천박물관</a></li>
+         <li><a href="#">국립박물관문화재단</a></li>
+        </ul>
+         </li>
+       </ul>
+       <!--site end-->
+       
+       <ul class="site">
+        <li><span>광주문화기관</span><span>▲</span> 
+        <ul class="sub_site1 top2">
+         <li><a href="#">국립중앙박물관</a></li>
+         <li><a href="#">국립경주박물관</a></li>
+         <li><a href="#">국립공주박물관</a></li>
+         <li><a href="#">국립김해박물관</a></li>
+         <li><a href="#">국립나주박물관</a></li>
+         <li><a href="#">국립대구박물관</a></li>
+         <li><a href="#">국립부여박물관</a></li>
+         <li><a href="#">국립익산박물관</a></li>
+         <li><a href="#">국립전주박물관</a></li>
+         <li><a href="#">국립제주박물관</a></li>
+         <li><a href="#">국립진주박물관</a></li>
+         <li><a href="#">국립청주박물관</a></li>
+         <li><a href="#">국립춘천박물관</a></li>
+         <li><a href="#">국립박물관문화재단</a></li>
+         <li><a href="#">국립중앙박물관</a></li>
+         <li><a href="#">국립경주박물관</a></li>
+         <li><a href="#">국립공주박물관</a></li>
+         <li><a href="#">국립김해박물관</a></li>
+         <li><a href="#">국립나주박물관</a></li>
+         <li><a href="#">국립대구박물관</a></li>
+         <li><a href="#">국립부여박물관</a></li>
+         <li><a href="#">국립익산박물관</a></li>
+         <li><a href="#">국립전주박물관</a></li>
+         <li><a href="#">국립제주박물관</a></li>
+         <li><a href="#">국립진주박물관</a></li>
+         <li><a href="#">국립청주박물관</a></li>
+         <li><a href="#">국립춘천박물관</a></li>
+         <li><a href="#">국립박물관문화재단</a></li>
+        </ul>
+        </li>
+       </ul>
+       
+       <ul class="site">
+       <li><span>전국유관기간</span><span>▲</span>
+        <ul class="sub_site1 top3">
+         <li><a href="#">국립중앙박물관</a></li>
+         <li><a href="#">국립경주박물관</a></li>
+         <li><a href="#">국립공주박물관</a></li>
+         <li><a href="#">국립김해박물관</a></li>
+         <li><a href="#">국립나주박물관</a></li>
+         <li><a href="#">국립대구박물관</a></li>
+         <li><a href="#">국립부여박물관</a></li>
+         <li><a href="#">국립익산박물관</a></li>
+         <li><a href="#">국립전주박물관</a></li>
+         <li><a href="#">국립박물관문화재단</a></li>
+        </ul>
+        </li>
+       </ul>
+      </div>
+      <!--fs end-->
+      
+      <!--site script start-->
+      <script>
+      $(".site").mouseenter(function(){
+       $(this).find(".sub_site1").show();
+      });
+       $(".site").mouseleave(function(){
+       $(".sub_site1").hide();
+      })
+      </script>
+      
+     </div>
+     <!--f_top end-->
+     
+     <div class="f_bottom">
+      <div class="logo">
+       <a href="index.html"><img src="img/logo.png" alt="x"></a>
+      </div>
+      <!--f_bottom logo end-->
+      <div class="copy">
+       <p>61066 광주광역시 북구 하서로 110(매곡동 430번지) | 대표전화 062)570-7000 <br>
+        Copyright(c) 2018 Gwangju National Museum. All rights reserved.</p>
+      </div>
+      <!--copy end-->
+      <div class="sns">
+       <a href="#"><img src="img/mark.png" alt="x"></a>
+       <a href="#"><img src="img/f.png" alt="x"></a>
+       <a href="#"><img src="img/i.png" alt="x"></a>
+       <a href="#"><img src="img/b.png" alt="x"></a>
+       <a href="#"><img src="img/y.png" alt="x"></a>
+       <a href="#"><img src="img/open.png" alt="x"></a>
+      </div>
+      <!--sns end-->
+     </div>
+     <!--f_bottom end-->
+    </div>
+    <!--footer container end-->
+   </footer>
+   <!--footer end -->
+  </div>
+  <!--wrap end-->
+  
+  <div class="full_menu">
+   <ul class="f_menu">
+    <li>
+     <a href="#"><img src="img/sub_button.png" alt="x"></a>
+     <a href="#">국립광주박물관</a>
+     <a href="#">LANGUAGE ▼</a>
+     <button class="x">X</button>
+    </li>
+    <li><a href="#">관람정보</a>
+      <ul class="f_sub">
+      <li><a href="#">관람안내</a></li>
+      <li><a href="#">전시해설</a></li>
+       <li><a href="#">시설안내</a></li>
+      <li><a href="#">찾아오시는길</a></li>
+     </ul>
+      </li>
+      <li><a href="#">전시</a>
+      <ul class="f_sub">
+      <li><a href="#">상설전시</a></li>
+      <li><a href="#">특별전시</a></li>
+      <li><a href="#">전시도록</a></li>
+      <li><a href="#">가상현실체험관예약</a></li>
+     </ul>
+      </li>
+      <li><a href="#">교육·행사</a>
+      <ul class="f_sub">
+      <li><a href="#">공지사항</a></li>
+      <li><a href="#">교육프로그램</a></li>
+      <li><a href="#">문화행사</a></li>
+      <li><a href="#">공연</a></li>
+      <li><a href="#">온라인학습영상자료실</a></li>
+      <li><a href="#">교육자료</a></li>
+      <li><a href="#">읽어주는문화재</a></li>
+      <li><a href="#">교육/행사사진</a></li>
+      <li><a href="#">예약확인/취소</a></li>
+     </ul>
+      </li>
+      <li><a href="#">소장품</a>
+     <ul class="f_sub">
+      <li><a href="#">소장품검색</a></li>
+      <li><a href="#">소장품정보서비스</a></li>
+      <li><a href="#">지정문화재</a></li>
+      <li><a href="#">큐레이터추천소장품</a></li>
+      <li><a href="#">문화재기증</a></li>
+     </ul> 
+     </li>
+      <li><a href="#">학술</a>
+      <ul class="f_sub">
+      <li><a href="#">아시아 도자문화연구</a></li>
+      <li><a href="#">학술연구</a></li>
+      <li><a href="#">발굴조사</a></li>
+      <li><a href="#">보존과학</a></li>
+      <li><a href="#">보고서</a></li>
+      <li><a href="#">도서열람실</a></li>
+     </ul>
+      </li>
+      <li><a href="#">소식·참여</a>
+      <ul class="f_sub">
+      <li><a href="#">새소식</a></li>
+      <li><a href="#">온라인박물관</a></li>
+      <li><a href="#">이벤트게시판</a></li>
+      <li><a href="#">언론에비친박물관</a></li>
+      <li><a href="#">월간소식지</a></li>
+      <li><a href="#">국립광주박물관후원회</a></li>
+      <li><a href="#">뮤지엄프렌즈</a></li>
+      <li><a href="#">자주하는 질문</a></li>
+      <li><a href="#">관람후기</a></li>
+      <li><a href="#">전자민원(불편신고)</a></li>
+       <li><a href="#">설문조사</a></li>
+     </ul>
+    
+      </li>
+     </ul>
+  </div>
+  
+  <!--full_menu start-->
+  <script>
+   $(document).ready(function(){
+  $(".f_button").click(function(){
+   $(".full_menu").fadeIn();
+   $(".f_menu").animate({marginRight:"38%"},500);
+   $(".wrap").css({"width":"100%", "height":"100vh", "overflow":"hidden"})
+  });
+ 
+   $(".x").click(function(){
+   $(".full_menu").fadeOut(1000);
+  $(".f_menu").animate({marginRight:"-38%"},500);
+    $(".wrap").css({"width":"100%", "height":"auto"})
+  });
+    
+   $(".f_menu>li").click(function(){
+    $(this).find(".f_sub").slideToggle();
+   })
+ });
+  </script>
+  
+ </body>
+</html>
+
+
+
+
+

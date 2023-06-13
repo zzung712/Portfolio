@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./css/join_info.css">
+ <script src="js/join.js" defer></script>
+</head>
+<body>
+ <div class="wrap df ic">
+  <div class="join_wrap pr">
+  <div class="close pa"><button  onclick="Close()">X</button></div>
+   <ul class="profile df ic">
+    <li class="profile_img"></li>
+    <li><p>COZLE_ID</p>
+     <span>프로필사진 바꾸기</span></li>
+   </ul>
+   <form action="">
+    <ul class="info">
+     <li class="df"><p class="fe">이름</p><input type="text" placeholder="이름"></li>
+     <li class="df"><p class="fe">분야</p><input type="text" placeholder="Web Publisher"></li>
+     <li class="df"><p class="fe">소개</p><textarea name="" id=""></textarea></li>
+     <li class="df"><p class="fe">언어</p><input type="text" placeholder="#HTML #CSS #JS .."></li>
+     <li class="df"><p class="fe">이메일</p><input type="text" placeholder="yujeong@naver.com"></li>
+    </ul>
+    <ul class="sns_check df">
+      <li class="df"><p class="fe">SNS계정</p></li>
+      <li class="fb fw">
+        <input type="checkbox"><span>페이스북</span>
+        <input type="checkbox"><span>인스타그램</span>
+        <input type="checkbox"><span>트위터</span>
+        <input type="checkbox"><span>깃허브</span>
+      </li>
+    </ul>
+    <div class="btn fa">
+     <button type="button" onclick="Back()">뒤로가기</button>
+     <button type="button" onclick="Join()">제출</button>
+    </div>
+   </form>
+  </div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./css/setting2.css">
+ <script src="js/setting_btn.js" defer></script>
+</head>
+<body>
+ <div class="logo pf">
+  <a href="index.html">
+   <img src="./img/logo.png">
+  </a>
+ </div>
+
+ <div class="wrap fb">
+   <div class="menu_wrap">
+   <div class="menu_box pf">
+    <ul class="menu fc fw">
+     <li><a class="fc ic" href="setting.html"><p>프로필 편집</p><img src="img/setting_profile_icon.png"></a></li>
+     <li><a class="fc ic green" href="setting2.html"><p>SNS링크 변경</p><img src="img/setting_link.png"></a></li>
+     <li><a class="fc ic" href="setting3.html"><p>계정관리</p><img src="img/setting_account.png"></a></li>
+     <li><a class="fc ic" href="main.html"><p>메인피드가기</p><img class="out" src="img/setting_out.png"></a></li>
+    </ul>
+   </div>
+  </div>
+  <!-- menu_wrap end -->
+
+  <div class="main_wrap fc ic">
+    <div class="main_box df ic fw">
+     <ul class="main_email">
+        <li class="fb ic">
+          <p>이메일</p>
+          <form action="">
+            <input type="text" placeholder="ID@emailadress.com">
+          </form>
+        </li>
+        <li class="fb ic">
+          <p>웹사이트</p>
+          <form action="">
+            <input type="text" placeholder="www.portfolio.com">
+          </form>
+        </li>
+      </ul>
+      <ul class="main_txt df fw">
+        <li class="fb is">
+          <p>SNS계정</p>
+          <form action="">
+           <ul class="sns_link">
+            <li class="df ic">
+             <input class="check" type="checkbox"><p>페이스북</p>
+             <input class="link" type="text" placeholder="www.facebook/uer.com">
+            </li>
+            <li class="df ic">
+             <input class="check" type="checkbox"><p>인스타그램</p>
+             <input class="link" type="text" placeholder="www.instargram/user.com">
+            </li>
+            <li class="df ic">
+             <input class="check" type="checkbox"><p>트위터</p>
+             <input class="link" type="text" placeholder="www.twitter/user.com">
+            </li>
+            <li class="df ic">
+             <input class="check" type="checkbox"><p>깃허브</p>
+             <input class="link" type="text" placeholder="www.github/user.com">
+            </li>
+           </ul>
+          </form>
+        </li>
+        <li class="fe">
+          <button class="reset" onclick="reset();">초기화하기</button>
+          <button class="save" onclick="save();">저장하기</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+ </div>
+ <!-- wrap end -->
+</body>
+</html>

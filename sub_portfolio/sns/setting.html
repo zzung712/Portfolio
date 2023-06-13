@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./css/setting.css">
+ <script src="js/setting_btn.js" defer></script>
+</head>
+<body>
+ <div class="logo pf">
+  <a href="index.html">
+   <img src="./img/logo.png">
+  </a>
+ </div>
+
+ <div class="wrap fb">
+   <div class="menu_wrap">
+   <div class="menu_box pf">
+    <ul class="menu fc fw">
+     <li><a class="fc ic green" href="setting.html"><p>프로필 편집</p><img src="img/setting_profile_icon.png"></a></li>
+     <li><a class="fc ic" href="setting2.html"><p>SNS링크 변경</p><img src="img/setting_link.png"></a></li>
+     <li><a class="fc ic" href="setting3.html"><p>계정관리</p><img src="img/setting_account.png"></a></li>
+     <li><a class="fc ic" href="main.html"><p>메인피드가기</p><img class="out" src="img/setting_out.png"></a></li>
+    </ul>
+   </div>
+  </div>
+  <!-- menu_wrap end -->
+
+  <div class="main_wrap fc ic">
+    <div class="main_box df ic fw">
+      <ul class="main_tit df ic">
+        <li class="tit_img fe ic">
+          <img src="img/sns_profile.jpg">
+        </li>
+        <li class="df fw">
+          <p>NickName</p>
+          <form action="" class="df">
+            <label for="input-file">
+              프로필사진 업로드 하기
+            </label>
+            <input class="dn" type="file" id="input-file">
+          </form>
+        </li>
+      </ul>
+      <ul class="main_txt df fw">
+        <li class="fb ic">
+          <p>닉네임</p>
+          <form action="">
+            <input type="text" placeholder="닉네임">
+          </form>
+        </li>
+        <li class="fb ic">
+          <p>Currents Status</p>
+          <form action="">
+            <input type="text" placeholder="WebPublish Developer">
+          </form>
+        </li>
+        <li class="fb ic">
+          <p>Skills</p>
+          <form action="">
+            <input type="text" placeholder="웹사이트제작, UX/UI디자인 ect...">
+          </form>
+        </li>
+        <li class="fb ic">
+          <p>Programs</p>
+          <form action="">
+            <input type="text" placeholder="비주얼스튜디오, 드림위버 (webEditor ect) ect...">
+          </form>
+        </li>
+        <li class="fb ic">
+          <p>언어</p>
+          <form action="">
+            <input type="text" placeholder="#HTML #CSS #JS etc...">
+          </form>
+        </li>
+        <li class="fb">
+          <p>소개</p>
+          <form action="">
+            <textarea name="" id="" placeholder="한줄 자기소개를 작성하세요."></textarea>
+          </form>
+        </li>
+        <li class="fe">
+          <button class="reset" onclick="reset();">초기화하기</button>
+          <button class="save" onclick="save();">저장하기</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+ </div>
+ <!-- wrap end -->
+</body>
+</html>

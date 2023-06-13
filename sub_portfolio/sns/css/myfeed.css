@@ -1,0 +1,279 @@
+@import url("style.css");
+
+.wrap{width:100%; height:auto; background:url(../img/bg.png) repeat center #000; background-size:65%; overflow:hidden;}
+/* 로고 */
+.logo img{width:60px; margin:20px;}
+
+/* 메뉴 */
+.menu_wrap{width:180px;}
+.menu_box{left:0; top:200px;}
+.menu{width:90px; padding:60px 0;background:#5f64ca; border-radius:0 100px 100px 0;}
+.menu>li>a>img{margin:15px 0;}
+
+/* 우측 프로필 */
+.profile_wrap{width:380px;}
+.profile_box{right:50px; top:30px; width:260px; height:auto;}
+.profile_img{width:180px; height:180px; border:2px solid #ddd; background:#fff; border-radius:100%; margin-top:100px; overflow:hidden; box-sizing:border-box; z-index:1;}
+.profile_img>img{width:110%; height:110%;}
+.pro_box{width:100%; height:auto; padding:20px; background:#fff; border-radius:15px; border:2px solid #ddd; top:-30px;}
+.tit{text-align:center; margin-top:20px;}
+.tit h2{height:35px; border-bottom:1px solid #ddd;}
+.tit h4{color:#5f64ca; font-size:15px; line-height:30px; margin-bottom:20px;}
+.info>li{margin-bottom:15px;}
+.link{margin-top:25px;}
+.link>li{line-height:25px; cursor:pointer;}
+.link>li>img{width:20px; margin:0 20px 0 5px;}
+.sns{margin-top:30px;}
+.tistory{width:100%; height:50px; border:1px solid #ddd;}
+.tistory a{width:100%; height:50px;}
+.tistory img{width:130px;}
+
+/* 채팅전체 */
+.chatt_wrap{width:280px;height:380px; border:3px solid #5f64ca; border-radius:20px 20px 0 0; border-bottom:0; bottom:-320px; right:40px;  overflow:hidden; background:#fff; font-size:18px; font-weight:bold; transition:all 0.4s;}
+.chatt_wrap:hover{bottom:0;}
+/* 채팅 타이틀 */
+.chatt_tit{height:60px; border-bottom:1px solid #ddd;}
+.chatt_tit>li:first-child>img{width:40px;}
+.chatt_tit>li:last-child{display:none;}
+.chatt_tit>li>button{border:none; background:#fff; font-weight:bold; font-size:18px; color:#5f64ca;}
+.chatting_wrap{width:100%; height:100%; padding:0 20px; box-sizing:border-box; overflow:scroll; overflow-x:hidden;}
+.chatting_wrap::-webkit-scrollbar {width:4px;}
+.chatting_wrap::-webkit-scrollbar-thumb {background:#ddd; border-radius:10px;}
+.chatting_wrap::-webkit-scrollbar-track {background:#eee; border-radius: 10px;}
+/* 채팅 친구 창 */
+.chat_pro>img{width:30px; height:30px; border:1px solid #eee; border-radius:100%; overflow:hidden;}
+.chat_pro>p{line-height:30px; margin-left:10px; color:#282828; font-size:16px;}
+.chatting{height:60px; cursor:pointer; }
+.send{width:20px;}
+/* 채팅 디엠 창 */
+.dm_wrap{width:100%; height:100%; font-size:14px; color:#282828;}
+.dm_box{width:100%; height:70%; background:#f3f4ff; padding:10px; box-sizing:border-box; overflow:scroll; overflow-x:hidden;}
+.dm_box::-webkit-scrollbar {width:4px;}
+.dm_box::-webkit-scrollbar-thumb {background:#ddd; border-radius:10px;}
+.dm_box::-webkit-scrollbar-track {background:#eee; border-radius: 10px;}
+.dm_box>ul{padding:5px 0;}
+/* 채팅 친구 프로필 + 말풍 */
+.you>li>img{width:30px; height:30px; border-radius:100%; margin-right:10px;}
+.you>li>p{height:auto; background:#fff; padding:0 10px; line-height:30px; border-radius:10px;}
+/* 내 말풍 */
+.me>li>p{height:auto; background:#fff; padding:0 10px; line-height:30px; border-radius:10px;}
+/* 채팅 보내는 창 */
+.dm{width:100%; height:15%;}
+.dm>li>form>input{width:250px; height:40px; padding:0 10px; font-size:14px; border:none; box-sizing:border-box;}
+.dm>li>button{border:none; background:#fff;}
+.dm>li>button>img{width:20px;}
+
+/* 메인 전체창 */
+.main_wrap{width:70%; height:auto; margin-left:0;}
+/* 검색창 */
+.search_wrap{width:100%; height:150px;}
+.search{width:100%; height:40px; border:1px solid #aaa; border-radius:40px; background:#fff;}
+.search>li>input{width:100%; height:40px; border-radius:0 40px 40px 0; border:none; font-size:16px; box-sizing:border-box; padding:0 20px;} 
+.search>li>img{height:20px; padding-left:10px;}
+
+/* 스탯 */
+.stat_wrap{width:100%; height:auto;}
+.stat_box>li{width:30%;}
+.stat_tit{width:65%; background:#5f64ca; height:45px; font-size:20px; color:#fff; font-weight:bold; border-radius:10px 10px 0 0;}
+.stat_text{width:100%; height:150px; background:#fff; border:1px solid #aaa; border-radius:0 10px 10px 10px; padding:30px; box-sizing:border-box; font-size:20px; font-weight:bold; color:#5f64ca;}
+
+
+/* 깃허브 연동 */
+.git_wrap{width:100%; height:auto; border:1px solid #eee; margin:50px 0;}
+.git{width:100%; height:100%;}
+.git>img{width:100%;}
+
+/* 피드 전체 창 */
+.feed_wrap{width:100%; height:auto; background:#f8f8f8; border-radius:10px; padding:20px 40px 40px 40px; box-sizing:border-box; margin-bottom:40px;}
+
+/* 내가 글쓰는 포스트 창 */
+.post_wrap{width:100%; height:auto; margin-bottom:100px;}
+.post_profile{width:13%; height:auto;}
+.post_profile>li{width:120px; height:120px; overflow:hidden; border-radius:100%; border:1px solid #eee;}
+.post_profile>li>img{width:100%; height:100%;}
+/* 글작성란 */
+.post{width:87%; height:auto;}
+.post>li{width:100%; height:auto; border:1px solid #eee; border-radius:15px; background:#fff;}
+.post>li>.post_box{width:100%; height:auto; padding:20px 20px  0px 20px; box-sizing:border-box; }
+.post>li>.post_box>li>textarea{width:100%; height:100px; resize:none; font-size:18px; padding:10px; border:none;}
+.post form{width:100%; padding:0 30px; box-sizing:border-box;}
+/* 파일 첨부 */
+.attach{width:50%; opacity:0.5}
+.attach>li>input{display:none;}
+.attach>li>label{cursor:pointer; width:90px; height:50px;}
+.attach>li>label>p{font-size:20px;}
+.attach>li>label>img{width:25px;}
+/* 글작성 후 제출 or 리셋 */
+.post_btn>button{border:none; background:#fff; font-size:15px; font-weight:bold; color:#555;}
+
+/* 피드 */
+.feed{width:100%; height:1400px; background:#fff; padding:20px; box-sizing:border-box; margin-top:20px; overflow:scroll; overflow-x:hidden;}
+.feed::-webkit-scrollbar {width:0px;}
+/* 피드 박스 */
+.feed>.feed_box:last-child{margin-bottom:20px;}
+.feed_box{width:100%; height:auto; margin-bottom:80px;}
+.feed_id{width:100%; height:70px;}
+.feed_id>li:first-child>img{width:40px; height:40px; border-radius:100%; margin-right:10px;}
+.feed_id>li>p{font-size:20px; font-weight:bold; color:#282828;}
+/* 피드 콘텐츠 */
+.feed_contents{width:100%; height:auto; border:1px solid #eee; padding:10px; box-sizing:border-box;}
+.feed_contents>.codeblock{width:100%; height:350px;}
+/* 피드 태그, 좋아요, 스크랩, 댓글 */
+.tag_wrap{width:100%; height:auto; border:1px solid #eee; border-top:none; box-sizing:border-box;}
+.tag{width:80%;}
+.tag>li>p{padding:10px; line-height:30px;}
+.hashtag {color: #5f64ca; font-weight:bold;}
+.like_box{width:180px; height:50px; padding:0 10px; box-sizing:border-box; background:#fff;}
+.like_box>li{height:50px;}
+.like_box>li>img{width:30px; cursor:pointer;}
+.like_box>.icon_scrap>img{width:25px;}
+.like_box>li>span{padding:14px 0 0 3px;}
+/* 피드 댓글창 */
+.comment_wrap{width:100%; height:auto; padding:0 10px; box-sizing:border-box; border:1px solid #eee; border-top:none;}
+.comment_wrap>ul{width:100%; height:auto; padding:10px 0; border-bottom:1px solid #eee;}
+.comment_wrap>ul:last-child{border-bottom:none;}
+.comment_wrap img{width:35px; height:35px; border-radius:100%; margin-right:10px;}
+.comment_wrap span{width:75px; font-weight:bold; white-space:wrap; overflow-wrap: break-word; word-wrap: break-word;}
+.my_comment>.width{width:100%;}
+.my_comment>li>form>input{width:100%; padding:10px; border:1px solid #f3f4ff; background:#f3f4ff;}
+.my_comment>li>button{border:none; background:#5f64ca; color:#fff; padding:11px 10px;}
+.commt_text{width:98%; padding:10px;}
+
+/* 모바일 */
+@media all and (min-width:0px) and (max-width:766px){
+/* 메뉴 */
+.logo{position:absolute;}
+.logo img{width:35px; margin:30px 0 0 10px;}
+.menu_wrap{width:0; z-index:100;}
+.menu{width:100%; height:70px; bottom:0; display:flex; justify-content:space-around; left:0; position:fixed; border-radius:0; padding:0 30px; box-sizing:border-box;}
+.menu>li>a>img{height:28px;}
+/* 메인 */
+.main_wrap{width:100%;}
+.search_wrap{height:100px; width:85%; margin-left:70px;}
+/* 스탯창 */
+.stat_wrap{width:98%; margin:0 auto;}
+.stat_box{flex-wrap:wrap;}
+.stat_box>li{width:100%;}
+.stat_tit{font-size:16px; padding:0 10px; box-sizing:border-box; width:100%;}
+.stat_text{font-size:16px; padding:0 10px; height:100px; margin-bottom:20px; width:100%; border-radius:0 0 10px 10px;}
+
+/* 메인_피드 */
+.feed_wrap{padding:20px; margin-bottom:100px;}
+/* 포스트(작성) */
+.post_wrap{position:relative;}
+.post_profile>li{width:50px; height:50px; position:absolute; top:-5px; left:-5px;}
+.post{width:95%; margin-top:15px; margin-left:15px;}
+.post form{padding:0 15px;}
+.post>li>.post_box>li>textarea{font-size:16px;}
+.attach{width:65%;}
+.attach>li>label{width:55px;}
+.attach>li>label>img{width:15px;}
+.attach>li>label>p{font-size:14px;}
+/* 피드박스 */
+.tag{width:100%; border-top:1px solid #eee;}
+.like_box>li>img{width:25px;}
+.like_box>.icon_scrap>img{width:20px;}
+.like_box>li>span{font-size:14px;}
+.comment_wrap span{width:65px; font-size:14px;}
+.comment_wrap p,input{font-size:15px;}
+
+/* 프로필 */
+.profile_wrap{display:none;}
+
+}
+
+/* 탭 */
+@media all and (min-width:767px) and (max-width:1023px){
+/* 메뉴 */
+.logo img{width:50px; margin-left:10px;}
+.menu_wrap{width:110px;}
+.menu{width:65px;}
+/* 메인 */
+.main_wrap{width:100%; margin-right:30px;}
+.search_wrap{height:100px;}
+/* 스탯창 */
+.stat_tit{font-size:16px; padding:0 10px;}
+.stat_text{font-size:16px; padding:0 10px;}
+
+/* 메인_피드 */
+.feed_wrap{padding:20px;}
+/* 포스트(작성) */
+.post_wrap{position:relative;}
+.post_profile>li{width:50px; height:50px; position:absolute; top:-5px; left:-5px;}
+.post{width:95%; margin-top:15px; margin-left:15px;}
+.attach{width:65%;}
+.attach>li>label{width:65px;}
+.attach>li>label>img{width:18px;}
+.attach>li>label>p{font-size:16px;}
+/* 피드박스 */
+.tag{width:100%; border-top:1px solid #eee;}
+.like_box>li>img{width:25px;}
+.like_box>.icon_scrap>img{width:20px;}
+.like_box>li>span{font-size:14px;}
+
+/* 프로필 */
+.profile_wrap{display:none;}
+
+}
+
+/* 탭 */
+@media all and (min-width:1024px) and (max-width:1299px){
+/* 메뉴 */
+.logo img{width:50px; margin-left:10px;}
+.menu_wrap{width:110px;}
+.menu{width:65px;}
+/* 메인 */
+.main_wrap{width:100%; margin-right:30px;}
+.search_wrap{height:100px;}
+
+/* 메인_피드 */
+.feed_wrap{padding:20px;}
+/* 포스트(작성) */
+.post_profile>li{width:95px; height:95px;}
+.attach{width:65%;}
+.attach>li>label{width:80px;}
+.attach>li>label>p{font-size:18px;}
+/* 피드박스 */
+.tag{width:100%; border-top:1px solid #eee;}
+.like_box>li>img{width:25px;}
+.like_box>.icon_scrap>img{width:20px;}
+.like_box>li>span{font-size:14px;}
+
+/* 프로필 */
+.profile_wrap{display:none;}
+}
+
+/* 모니터 */
+@media all and (min-width:1300px) and (max-width:1569px){
+/* 메뉴 */
+.menu_wrap{width:140px;}
+
+/* 메인_피드 */
+.feed_wrap{padding:20px;}
+/* 포스트(작성) */
+.post_profile>li{width:95px; height:95px;}
+.attach{width:65%;}
+.attach>li>label{width:80px;}
+.attach>li>label>p{font-size:18px;}
+/* 피드박스 */
+.tag{width:100%; border-top:1px solid #eee;}
+.like_box>li>img{width:25px;}
+.like_box>.icon_scrap>img{width:20px;}
+.like_box>li>span{font-size:14px;}
+
+ /* 프로필 */
+ .profile_wrap{width:300px;}
+ .profile_box{top:30px; right:50px; width:175px; height:auto;}
+ .profile_img{width:120px; height:120px;}
+ .tit h2{font-size:22px;}
+ .tit h4{font-size:14px; margin-bottom:10px;}
+ .info>li{font-size:15px; margin-bottom: 10px;}
+ .link{margin-top:15px;}
+ .link>li{font-size:15px;}
+ .link>li>img{margin:0 10px 0 0px;}
+ .sns{margin-top:25px;}
+ .sns img{width:28px;}
+ .tistory{padding:0 40px;}
+ /* 채팅 */
+ .chatt_wrap{right:20px; width:250px; bottom:-330px;}
+}
